@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+font-family: 'Roboto Condensed', sans-serif;
+}
+form{
+    margin: 0;
+    padding: 0;
+}
+
+.login_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_content {
+    max-width: 720px;
+    flex-shrink: 0;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+.login__img {
+    max-width: 720px;
+    max-height: 700px;
+    flex-shrink: 0;
+}
+
+.card {
+    max-width: 400px;
+    padding: 15px;
+}
+
+.form__title {
+    color: #1A202C;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.email_login label {
+    color: #4A5568;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 350px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    color: #2D3748;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 17px 20px;
+    margin-bottom: 11px;
+}
+.checkbox{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+.checkbox_label{
+    color: #2D3748;
+    margin-right: 133px;
+
+}
+.forget_pass{
+    color: #2C5282;
+
+}
+.social_login img {
+    width: 20px;
+}
+.form__btn {
+    max-width: 347px;
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #04C35C;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+.form__btn2 {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    justify-content: center; 
+    max-width: 347px;
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #2D3748;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 15px 10px;
+    margin-bottom: 162px;
+}
+.form__text--bottom{
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+span{
+    color: #2B6CB0;
+        font-size: 16px;
+        font-weight: 400;
+}
+
+

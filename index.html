@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="login">
+        <div class=" container login_container">
+            <div class="login__img_block">
+                <picture>
+                    <source media="(max-width: 470px)" srcset="./img/hero_img_mobile.jpg" />
+                    <source media="(max-width:640px)" srcset="./img/hero_tablet.jpg" />
+                    <img class="login__img" src="./img/img.jpg" alt="" />
+                </picture>
+            
+            </div>
+            <div class="login_content">
+                <div class="card">
+                    <form>
+                        <legend>Welcome back</legend>
+                        <h2 class="form__title">Login to your account</h2>
+                
+                        <div class="email_login">
+                            <label for="email">Email</label>
+                            <input class="email__input" type="email" placeholder="John.snow@gmail.com" name="email" required>
+                            <label for="psw">Password</label>
+                            <input class="psw__input" type="password" placeholder="*********" name="psw" required>
+                        </div>
+                        <div class="checkbox">
+                            <input class="checkbox_input" type="checkbox" id="myCheckbox">
+                            <label class="checkbox_label" for="myCheckbox">Remember me</label>
+                            <a class="forget_pass" href="#">Forgot password?</a>
+                        </div>
+                        <button class="form__btn">Login now</button>
+                        <div class="social_login">
+                            <button class="form__btn2">
+                                <img alt="Google icon" src="./img/google_icon.png" />
+                                <p class="form__btn--text">or sign-in with google</p>
+                            </button><br>
+                            <p class="form__text--bottom">Dont have an account? <span>Join free today</span></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
